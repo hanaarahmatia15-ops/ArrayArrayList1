@@ -4,10 +4,24 @@
  */
 package bagian2.arraylist;
 
-/**
- *
- * @author ASUS
- */
+import java.util.ArrayList;
+
 public class latihanMandiri4 {
-    
+    public static void main(String[] args) {
+
+        ArrayList<String> daftarBelanja = new ArrayList<>();
+
+        daftarBelanja.add("Beras");
+        daftarBelanja.add("Gula");
+        daftarBelanja.add("Minyak");
+        daftarBelanja.add("Telur");
+
+        // Menghapus item ke-2 (indeks 1)
+        daftarBelanja.remove(1);
+
+        System.out.println("Daftar Belanja:");
+        System.out.println(daftarBelanja);
+
+        System.out.println("Jumlah item: " + daftarBelanja.size());
+    }
 }
