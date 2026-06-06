@@ -62,4 +62,14 @@ public class perpustakaan {
 
         return jumlah;
     }
+    
+    public void cariPenulis(String penulis) {
+        System.out.println("Buku karya " + penulis + ":");
+
+        for (Buku b : koleksi) {
+            if (b.getPenulis().equalsIgnoreCase(penulis)) {
+                System.out.println(b.info());
+            }
+        }
+    }
 }

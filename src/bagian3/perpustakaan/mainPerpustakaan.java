@@ -14,9 +14,9 @@ public class mainPerpustakaan {
         // Membuat objek pengelola
         perpustakaan perpus = new perpustakaan();
         // Membuat objek Buku lalu memasukkannya ke koleksi
-        perpus.tambahBuku(new Buku("Laskar Pelangi", "Andrea Hirata"));
-        perpus.tambahBuku(new Buku("Bumi Manusia", "Pramoedya"));
-        perpus.tambahBuku(new Buku("Negeri 5 Menara", "Ahmad Fuadi"));
+        perpus.tambahBuku(new Buku("Laskar Pelangi", "Andrea Hirata", 2005));
+        perpus.tambahBuku(new Buku("Bumi Manusia", "Pramoedya", 1980));
+        perpus.tambahBuku(new Buku("Negeri 5 Menara", "Ahmad Fuadi", 2009));
 
         perpus.tampilkanKoleksi();
 
